@@ -1,0 +1,586 @@
+/*FONT*/
+@font-face {
+    font-family: 'museo_sans100';
+    src: url('/fonts/museosans_100-webfont.eot');
+    src: url('/fonts/museosans_100-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/museosans_100-webfont.woff2') format('woff2'),
+         url('/fonts/museosans_100-webfont.woff') format('woff'),
+         url('/fonts/museosans_100-webfont.ttf') format('truetype'),
+         url('/fonts/museosans_100-webfont.svg#museo_sans100') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'museo_sans500';
+    src: url('/fonts/museosans_500-webfont.eot');
+    src: url('/fonts/museosans_500-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/museosans_500-webfont.woff2') format('woff2'),
+         url('/fonts/museosans_500-webfont.woff') format('woff'),
+         url('/fonts/museosans_500-webfont.ttf') format('truetype'),
+         url('/fonts/museosans_500-webfont.svg#museo_sans500') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'museo_sans900';
+    src: url('/fonts/museosans_900-webfont.eot');
+    src: url('/fonts/museosans_900-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/museosans_900-webfont.woff2') format('woff2'),
+         url('/fonts/museosans_900-webfont.woff') format('woff'),
+         url('/fonts/museosans_900-webfont.ttf') format('truetype'),
+         url('/fonts/museosans_900-webfont.svg#museo_sans900') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+  font-family: 'museosans_100', sans-serif;
+}
+header {
+  z-index: 2;
+  position: relative;
+  min-height: 120px;
+}
+header h1 {
+  padding: 10px 0 0 10px;
+}
+header img {
+  min-width: 45%;
+}
+header ul {
+  padding: 15px 10px 0 0;
+}
+header li {
+  list-style: none;
+  display: inline-block;
+}
+header li:first-child {
+  border: none;
+}
+header li a {
+  display: block;
+  padding: 0 10px;
+  color: #000;
+  font-size: 16px;
+  line-height: 30px;
+  text-decoration: none;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+header li a:hover,
+header li a:link {
+  color: #727b86;
+  text-decoration: none;
+}
+nav {
+  position: absolute;
+  top: 50px;
+  right: 15px;
+}
+.fa-stack {
+ cursor: pointer;
+}
+span.fa-stack:hover {
+  color: pink;
+}
+input#control-nav {
+  visibility: hidden;
+  position: absolute;
+  left: -9999px;
+  opacity: 0;
+}
+#control-nav:checked ~ .control-nav-close {
+  -webkit-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+
+#control-nav:checked ~ nav {
+  -webkit-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+.accordion {
+  width: 100%;
+  /*max-width: 1080px;*/
+  height: 2114px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.accordion ul {
+  width: 100%;
+  display: table;
+  table-layout: fixed;
+  margin: 0;
+  padding: 0;
+}
+.accordion ul li {
+  display: table-cell;
+  vertical-align: middle;
+  position: relative;
+  width: 16.666%;
+  height: 2114px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  transition: all 500ms ease;
+}
+.accordion ul li div div:nth-child(1) {
+  position: absolute;
+  top: 30px;
+  left: 15px;
+}
+.accordion ul li div div:nth-child(2) {
+  position: absolute;
+  top: 160px;
+  left: 15px;
+}
+.accordion ul li div h3 {
+  color: #fff;
+  /*transform: rotate(-90deg);*/
+  font-size: 2em;
+}
+.accordion ul li:nth-child(1) { 
+  background-image: url("../img/sacolas.jpg");
+}
+.accordion ul li:nth-child(2) {
+  background-image: url("../img/sacolas.jpg");
+}
+.accordion ul li:nth-child(3) {
+  background-image: url("../img/sacolas.jpg");
+}
+.accordion ul li:nth-child(4) {
+  background-image: url("../img/sacolas.jpg");
+}
+.accordion ul li:nth-child(5) {
+  background-image: url("../img/sacolas.jpg");
+}
+.accordion ul li:nth-child(6) {
+  background-image: url("../img/sacolas.jpg");
+}
+.accordion ul:hover li { 
+  width: 8%;
+}
+.accordion ul:hover li:hover { 
+  width: 30%;
+}
+/*INDEX2*/
+.main-sacolas {
+  background-image: url(../img/img-sacolas.jpg);
+}
+.main-caixas {
+  background-image: url(../img/img-caixas.jpg);
+}
+.main-cartoes {
+  background-image: url(../img/img-cartoes.jpg);
+}
+.main-papeis {
+  background-image: url(../img/img-papeis.jpg);
+}
+.main-pastas {
+  background-image: url(../img/img-pastas.jpg);
+}
+.main-blocos {
+  background-image: url(../img/img-blocos.jpg);
+}
+.main {
+  background-repeat: no-repeat;
+  background-position: center;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  max-width: 100%;
+  min-height: 690px;
+  height: auto;
+}
+ul#navigation {
+  padding: 0px;
+  list-style: none;
+  z-index:9999;
+}
+ul#navigation li {
+  width: 100px;
+}
+ul#navigation li a {
+  text-decoration: none;
+  display: block;
+  margin-left: -85px;
+  width: 140px;
+  height: 120px;
+  /*background-repeat:no-repeat;
+  background-position:center center;*/
+  -moz-border-radius:0px 10px 10px 0px;
+  -webkit-border-bottom-right-radius: 10px;
+  -webkit-border-top-right-radius: 10px;
+  -khtml-border-bottom-right-radius: 10px;
+  -khtml-border-top-right-radius: 10px;
+}
+ul#navigation .sacolas a {
+  background-color: #b698c7;
+}
+ul#navigation .caixas a {
+  background-color: #86a32a;
+}
+ul#navigation .cartoes a {
+  background-color: #78cdf4;
+}
+ul#navigation .papeis a {
+  background-color: #f9c96c;
+}
+ul#navigation .pastas a {
+  background-color: #9467a5;
+}
+ul#navigation .blocos a {
+  background-color: #4778b6;
+}
+ul#navigation li a p {
+  transform: rotate(-90deg);
+  color: #fff;
+  padding-top: 80px;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+}
+/*SACOLAS*/
+.box-banner {
+  font-size: 20px;
+  position: absolute;
+  color: #fff;
+}
+.box-banner-sacolas {
+  color: #593e67;
+}
+.box-banner-caixas {
+  color: #4f6110;
+}
+.box-banner-cartoes {
+  color: #003775;
+}
+.box-banner-blocos {
+  color: #0e1634;
+}
+.img-banner {
+  display: inline-block;
+  position: relative;
+  top: -100px;
+  left: 70px;
+}
+.img-banner-cartoes, .img-banner-papeis, .img-banner-pastas, .img-banner-blocos {
+  top: 30px;
+}
+.texto-banner {
+  display: inline-block;
+  width: 280px;
+  position: relative;
+  top: 190px;
+  left: 100px;
+}
+.texto-banner-cartoes {
+  top: 70px;
+}
+.texto-banner-papeis {
+  width: 300px;
+}
+.texto-banner-pastas {
+  top: 60px;
+}
+.texto-banner-blocos {
+  top: 75px;
+}
+/*OTHERS*/
+.thumbnail {
+  border: 0;
+  border-radius: 0;
+}
+/*CONTACT*/
+.contact {
+  min-height: 300px;
+  height: auto;
+}
+form {
+  margin: 35px 0;
+}
+.footer-barra-sacolas {
+  height: 7px;
+  background-color: #825b9b;
+}
+.contact-sacolas {
+  background-color: #b698c7;
+}
+.footer-barra-caixas {
+  height: 7px;
+  background-color: #4f6110;
+}
+.contact-caixas {
+  background-color: #cae0a9;
+}
+.footer-barra-cartoes {
+  height: 7px;
+  background-color: #516c95;
+}
+.contact-cartoes {
+  background-color: #c3e7fb;
+}
+.footer-barra-papeis {
+  height: 7px;
+  background-color: #ca7400;
+}
+.contact-papeis {
+  background-color: #eeb864;
+}
+.footer-barra-pastas {
+  height: 7px;
+  background-color: #9467a5;
+}
+.contact-pastas {
+  background-color: #d98dbc;
+}
+.footer-barra-blocos {
+  height: 7px;
+  background-color: #4778b6;
+}
+.contact-blocos {
+  background-color: #8bb0da;
+}
+.botao-form {
+  position: relative;
+}
+.botao-form button {
+  position: absolute;
+  right: 0;
+}
+/*EMPRESA*/
+.empresa-box {
+  min-height: 550px;
+  height: auto;
+  /*display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;*/
+}
+.empresa-box-1 {
+  background-color: #fff461;
+}
+.empresa-box-2 {
+  background-color: #a8dff8;
+}
+.empresa-box-3 {
+  background-color: #f4c0c6;
+}
+.empresa-wrap {
+  padding: 70px 0;
+/*  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;*/
+}
+/*.empresa-wrap-1 {
+  background-image: url(../img/icon-produto.png);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: 30px 30px;
+}
+.empresa-wrap-2 {
+  background-image: url(../img/icon-criacao.png);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}
+.empresa-wrap-3 {
+  background-image: url(../img/icon-missao.png);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}*/
+.empresa-title-1 h2, .empresa-title-2 h2, .empresa-title-3 h2 {
+  font-family: 'museosans_500', sans-serif;
+}
+.empresa-title-1 h2, .empresa-title-2 h2, .empresa-title-3 h2 {
+  font-size: 4.5em;
+  width: 400px;
+}
+.empresa-title-1 h2 {
+  color: #a86022;
+}
+.empresa-title-1 img {
+  margin-left: 100px;
+}
+.empresa-title-2 h2 {
+  color: #0087ce;
+}
+.empresa-title-2 img {
+  margin-left: 160px;
+}
+.empresa-title-3 h2 {
+  color: #b25880;
+}
+.empresa-title-3 img {
+  margin-left: 190px;
+}
+.empresa-text-1 p, .empresa-text-2 p, .empresa-text-3 p {
+  font-size: 1.6em;
+}
+.empresa-title-1 {
+    /*width: 200px;
+    height: 200px;*/
+}
+.empresa-text-1 {
+  width: 375px;
+  /*width: 220px;*/
+}
+.empresa-title-2 {
+  /*width: 200px;
+  height: 200px;*/
+}
+.empresa-text-2 {
+  width: 420px;
+  /*width: 220px;*/
+}
+.empresa-title-3 {
+  /*width: 200px;
+  height: 110px;*/
+}
+.empresa-text-3 {
+  width: 380px;
+  /*width: 220px;*/
+}
+.empresa-barra {
+  height: 40px;
+  background-color: #dee85e;
+}
+.empresa-barra-2 {
+  background-color: #a3c7e2;
+}
+/*MEDIAQUERY*/
+@media screen and (max-width: 991px) {
+  ul#navigation {
+    display: none;
+  }
+  .main {
+    min-height: 450px;
+  }
+  .img-banner {
+    top: 30px;
+    left: 10px;
+  }
+  .img-banner-cartoes, .img-banner-pastas {
+    width: 100px;
+  }
+  .img-banner-blocos {
+    width: 130px;
+  }
+  .texto-banner {
+    display: none;
+  }
+  header .control-nav {
+    position: absolute;
+    right: 25px;
+    top: 83px;
+    display: block;
+    width: 30px;
+    padding: 8px 0;
+    border: solid #333;
+    border-width: 3px 0;
+    z-index: 2;
+    cursor: pointer;
+  }
+  header .control-nav:before {
+    content: "";
+    display: block;
+    height: 3px;
+    background: #333;
+  }
+  header .control-nav-close {
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    display: block;
+    z-index: 1;
+    background: rgba(0,0,0,0.4);
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+    -webkit-transform: translate(100%, 0);
+    -ms-transform: translate(100%, 0);
+    transform: translate(100%, 0);
+  }
+  header nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 250px;
+    border-left: 1px solid #ccc;
+    background: #fff;
+    overflow-x: auto;
+    z-index: 2;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+    -webkit-transform: translate(100%, 0);
+    -ms-transform: translate(100%, 0);
+    transform: translate(100%, 0);
+  }
+}
+@media screen and (max-width: 700px) {
+  .main {
+    min-height: 350px;
+  }
+  .img-banner {
+    top: 10px;
+    width: 130px;
+  }
+  .img-banner-cartoes, .img-banner-pastas {
+    width: 80px;
+  }
+  .img-banner-papeis {
+    width: 120px;
+  }
+  .img-banner-blocos {
+    width: 110px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .main {
+    min-height: 300px;
+  }
+  .img-banner {
+    top: 15px;
+    width: 110px;
+  }
+  .img-banner-cartoes, .img-banner-pastas {
+    width: 70px;
+  }
+  .img-banner-papeis {
+    width: 100px;
+  }
+  .img-banner-blocos {
+    width: 90px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .main {
+    min-height: 220px;
+  }
+  .img-banner {
+    top: 10px;
+    left: 15px;
+    width: 80px;
+  }
+  .img-banner-cartoes, .img-banner-pastas {
+    width: 50px;
+  }
+  .img-banner-papeis, .img-banner-blocos {
+    width: 70px;
+  }
+}
+@media screen and (max-width: 240px) {
+  .img-banner {
+    top: 10px;
+    left: 0px;
+    width: 70px;
+  }
+  .img-banner-cartoes {
+    width: 50px;
+  }
+}
