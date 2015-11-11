@@ -7,7 +7,7 @@
         <img src="img/icon-produto.png" alt="">
       </div>
       <div class="col-md-6 empresa-text-1">
-        <p>Começamos no ano 1996 com a proposta de oferecer produtos com qualidade e de preços  acessíveis para o mercado.
+        <p>Começamos no ano 1996 com a proposta de oferecer produtos com qualidade e de preços  acessíveis para o mercado.</br>
           Pensando nisso, nossa linha de produtos aumenta a cada ano, possibilitando que mais Papelarias e Lojas de 1,99 ofereçam a seus cliente produtos com baixo custo.</p>
         </div>
       </div>

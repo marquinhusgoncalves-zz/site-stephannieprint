@@ -20,24 +20,24 @@
 <div class="others container">
  <h4>CONHEÇA TODAS AS OPÇÕES EM NOSSA LOJA:</h4>
  <div class="row">
-   <div class="col-xs-12 col-sm-4 col-md-3">
+   <div class="col-xs-12 col-md-3">
     <a href="#" class="thumbnail">
-      <img src="img/papeis-opcao1.jpg" alt="Papéis Opção 1">
+      <img src="img/produtos/papeis-opcao1.jpg" alt="Papéis Opção 1">
     </a>
   </div>
-  <div class="col-xs-12 col-sm-4 col-md-3">
+  <div class="col-xs-12 col-md-3">
     <a href="#" class="thumbnail">
-      <img src="img/papeis-opcao2.jpg" alt="Papéis Opção 2">
+      <img src="img/produtos/papeis-opcao2.jpg" alt="Papéis Opção 2">
     </a>
   </div>
-  <div class="col-xs-12 col-sm-4 col-md-3">
+  <div class="col-xs-12 col-md-3">
     <a href="#" class="thumbnail">
-      <img src="img/papeis-opcao3.jpg" alt="Papéis Opção 3">
+      <img src="img/produtos/papeis-opcao3.jpg" alt="Papéis Opção 3">
     </a>
   </div>
-  <div class="col-xs-12 col-sm-4 col-md-3">
+  <div class="col-xs-12 col-md-3">
     <a href="#" class="thumbnail">
-      <img src="img/papeis-opcao4.jpg" alt="Papéis Opção 3">
+      <img src="img/produtos/papeis-opcao4.jpg" alt="Papéis Opção 3">
     </a>
   </div>
 </div>

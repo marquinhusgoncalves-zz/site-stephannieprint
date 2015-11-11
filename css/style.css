@@ -44,7 +44,7 @@ header h1 {
   padding: 10px 0 0 10px;
 }
 header img {
-  min-width: 45%;
+  width: 400px;
 }
 header ul {
   padding: 15px 10px 0 0;
@@ -99,9 +99,10 @@ input#control-nav {
   -ms-transform: translate(0, 0);
   transform: translate(0, 0);
 }
-.accordion {
+/*#ACCORDION*/
+/*.accordion {
   width: 100%;
-  /*max-width: 1080px;*/
+  max-width: 1080px;
   height: 2114px;
   overflow: hidden;
   margin: 0 auto;
@@ -135,7 +136,7 @@ input#control-nav {
 }
 .accordion ul li div h3 {
   color: #fff;
-  /*transform: rotate(-90deg);*/
+  transform: rotate(-90deg);
   font-size: 2em;
 }
 .accordion ul li:nth-child(1) { 
@@ -161,8 +162,8 @@ input#control-nav {
 }
 .accordion ul:hover li:hover { 
   width: 30%;
-}
-/*INDEX2*/
+}*/
+/*INDEX*/
 .main-sacolas {
   background-image: url(../img/img-sacolas.jpg);
 }
@@ -349,14 +350,8 @@ form {
 }
 /*EMPRESA*/
 .empresa-box {
-  min-height: 550px;
+  /*min-height: 550px;*/
   height: auto;
-  /*display: -webkit-flex;
-  display: flex;
-  -webkit-align-items: center;
-  align-items: center;
-  -webkit-justify-content: center;
-  justify-content: center;*/
 }
 .empresa-box-1 {
   background-color: #fff461;
@@ -369,33 +364,9 @@ form {
 }
 .empresa-wrap {
   padding: 70px 0;
-/*  display: -webkit-flex;
-  display: flex;
-  -webkit-align-items: center;
-  align-items: center;
-  -webkit-justify-content: center;
-  justify-content: center;*/
 }
-/*.empresa-wrap-1 {
-  background-image: url(../img/icon-produto.png);
-  background-repeat: no-repeat;
-  background-position: bottom center;
-  background-size: 30px 30px;
-}
-.empresa-wrap-2 {
-  background-image: url(../img/icon-criacao.png);
-  background-repeat: no-repeat;
-  background-position: bottom center;
-}
-.empresa-wrap-3 {
-  background-image: url(../img/icon-missao.png);
-  background-repeat: no-repeat;
-  background-position: bottom center;
-}*/
 .empresa-title-1 h2, .empresa-title-2 h2, .empresa-title-3 h2 {
   font-family: 'museosans_500', sans-serif;
-}
-.empresa-title-1 h2, .empresa-title-2 h2, .empresa-title-3 h2 {
   font-size: 4.5em;
   width: 400px;
 }
@@ -420,29 +391,14 @@ form {
 .empresa-text-1 p, .empresa-text-2 p, .empresa-text-3 p {
   font-size: 1.6em;
 }
-.empresa-title-1 {
-    /*width: 200px;
-    height: 200px;*/
-}
 .empresa-text-1 {
   width: 375px;
-  /*width: 220px;*/
-}
-.empresa-title-2 {
-  /*width: 200px;
-  height: 200px;*/
 }
 .empresa-text-2 {
   width: 420px;
-  /*width: 220px;*/
-}
-.empresa-title-3 {
-  /*width: 200px;
-  height: 110px;*/
 }
 .empresa-text-3 {
   width: 380px;
-  /*width: 220px;*/
 }
 .empresa-barra {
   height: 40px;
@@ -475,7 +431,7 @@ form {
   header .control-nav {
     position: absolute;
     right: 25px;
-    top: 83px;
+    top: 70px;
     display: block;
     width: 30px;
     padding: 8px 0;
@@ -521,10 +477,36 @@ form {
     -ms-transform: translate(100%, 0);
     transform: translate(100%, 0);
   }
+  /*EMPRESA*/
+  .empresa-title-1 h2, .empresa-title-2 h2, .empresa-title-3 h2 {
+    float: left;
+    font-size: 4em;
+    width: 290px;
+  }
+  .empresa-title-1 img, .empresa-title-2 img, .empresa-title-3 img {
+    float: right;
+    width: 280px;
+    margin-top: 49px;
+    margin-left: 0;
+  }
+  .empresa-text-1, .empresa-text-2, .empresa-text-3 {
+    clear: both;
+    width: auto;
+  }
+  .empresa-text-1 p, .empresa-text-2 p, .empresa-text-3 p {
+    font-size: 1.2em;
+    padding: 40px 15px 0 0;
+  }
 }
 @media screen and (max-width: 700px) {
   .main {
     min-height: 350px;
+  }
+  header img {
+    width: 340px;
+  }
+  header .control-nav {
+    top: 60px;
   }
   .img-banner {
     top: 10px;
@@ -539,10 +521,24 @@ form {
   .img-banner-blocos {
     width: 110px;
   }
+  /*EMPRESA*/
+  .empresa-title-1 h2, .empresa-title-2 h2, .empresa-title-3 h2 {
+    font-size: 3em;
+    width: 220px;
+  }
+  .empresa-title-1 img, .empresa-title-2 img, .empresa-title-3 img {
+    width: 200px;
+  }
 }
 @media screen and (max-width: 480px) {
   .main {
     min-height: 300px;
+  }
+  header img {
+    width: 300px;
+  }
+  header .control-nav {
+    top: 53px;
   }
   .img-banner {
     top: 15px;
@@ -556,6 +552,32 @@ form {
   }
   .img-banner-blocos {
     width: 90px;
+  }
+  /*EMPRESA*/
+  .empresa-title-1 h2, .empresa-title-2 h2, .empresa-title-3 h2 {
+    font-size: 2.5em;
+    width: 180px;
+  }
+  .empresa-title-1 img, .empresa-title-2 img, .empresa-title-3 img {
+    width: 140px;
+    margin-top: 57px;
+  }
+}
+@media screen and (max-width: 380px) {
+  header img {
+    width: 230px;
+  }
+  header .control-nav {
+    top: 43px;
+  }
+  /*EMPRESA*/
+  .empresa-title-1 h2, .empresa-title-2 h2, .empresa-title-3 h2 {
+    font-size: 2em;
+    width: 150px;
+  }
+  .empresa-title-1 img, .empresa-title-2 img, .empresa-title-3 img {
+    width: 110px;
+    margin-top: 49px
   }
 }
 @media screen and (max-width: 320px) {
@@ -572,6 +594,18 @@ form {
   }
   .img-banner-papeis, .img-banner-blocos {
     width: 70px;
+  }
+   /*EMPRESA*/
+  .empresa-title-1 h2, .empresa-title-2 h2, .empresa-title-3 h2 {
+    font-size: 1.5em;
+    width: 110px;
+  }
+  .empresa-title-1 img, .empresa-title-2 img, .empresa-title-3 img {
+    width: 100px;
+    margin-top: 34px;
+  }
+  .empresa-text-1 p, .empresa-text-2 p, .empresa-text-3 p {
+    font-size: 1em;
   }
 }
 @media screen and (max-width: 240px) {

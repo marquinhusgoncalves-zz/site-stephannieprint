@@ -27,24 +27,24 @@
 <div class="others container">
  <h4>CONHEÇA TODAS AS OPÇÕES EM NOSSA LOJA:</h4>
  <div class="row">
-  <div class="col-xs-12 col-sm-6 col-md-3">
+  <div class="col-xs-12 col-md-3">
     <a href="#" class="thumbnail">
-      <img src="img/cartoes-opcao1.jpg" alt="Cartoes Opção 1">
+      <img src="img/produtos/cartoes-opcao1.png" alt="Cartoes Opção 1">
     </a>
   </div>
-  <div class="col-xs-12 col-sm-6 col-md-3">
+  <div class="col-xs-12 col-md-3">
     <a href="#" class="thumbnail">
-      <img src="img/cartoes-opcao2.jpg" alt="Cartoes Opção 2">
+      <img src="img/produtos/cartoes-opcao2.png" alt="Cartoes Opção 2">
     </a>
   </div>
-  <div class="col-xs-12 col-sm-6 col-md-3">
+  <div class="col-xs-12 col-md-3">
     <a href="#" class="thumbnail">
-      <img src="img/cartoes-opcao3.jpg" alt="Cartoes Opção 3">
+      <img src="img/produtos/cartoes-opcao3.png" alt="Cartoes Opção 3">
     </a>
   </div>
-  <div class="col-xs-12 col-sm-6 col-md-3">
+  <div class="col-xs-12 col-md-3">
     <a href="#" class="thumbnail">
-      <img src="img/cartoes-opcao1.jpg" alt="Cartoes Opção 3">
+      <img src="img/produtos/cartoes-opcao4.png" alt="Cartoes Opção 3">
     </a>
   </div>
 </div>
