@@ -20,22 +20,22 @@
 <div class="others container">
  <h4>CONHEÇA TODAS AS OPÇÕES EM NOSSA LOJA:</h4>
  <div class="row">
-   <div class="col-xs-12 col-md-3">
+   <div class="col-xs-6 col-md-3">
     <a href="#" class="thumbnail">
       <img src="img/produtos/blocos-opcao1.jpg" alt="Blocos Opção 1">
     </a>
   </div>
-  <div class="col-xs-12 col-md-3">
+  <div class="col-xs-6 col-md-3">
     <a href="#" class="thumbnail">
       <img src="img/produtos/blocos-opcao2.jpg" alt="Blocos Opção 2">
     </a>
   </div>
-  <div class="col-xs-12 col-md-3">
+  <div class="col-xs-6 col-md-3">
     <a href="#" class="thumbnail">
       <img src="img/produtos/blocos-opcao3.jpg" alt="Blocos Opção 3">
     </a>
   </div>
-  <div class="col-xs-12 col-md-3">
+  <div class="col-xs-6 col-md-3">
     <a href="#" class="thumbnail">
       <img src="img/produtos/blocos-opcao4.jpg" alt="Blocos Opção 3">
     </a>

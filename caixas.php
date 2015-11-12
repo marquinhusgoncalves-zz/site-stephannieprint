@@ -1,4 +1,4 @@
-produtos/<div><?php include 'header.php';?></div>
+<div><?php include 'header.php';?></div>
   <div class="main main-caixas">
   <div class="container">
   <div class="box-banner box-banner-caixas">
@@ -28,22 +28,22 @@ produtos/<div><?php include 'header.php';?></div>
  <div class="others container">
    <h4>CONHEÇA TODAS AS OPÇÕES EM NOSSA LOJA:</h4>
    <div class="row">
-     <div class="col-xs-12 col-md-3">
+     <div class="col-xs-6 col-md-3">
       <a href="#" class="thumbnail">
         <img src="img/produtos/caixas-opcao1.png" alt="Caixas Opção 1">
       </a>
     </div>
-    <div class="col-xs-12 col-md-3">
+    <div class="col-xs-6 col-md-3">
       <a href="#" class="thumbnail">
         <img src="img/produtos/caixas-opcao2.png" alt="Caixas Opção 2">
       </a>
     </div>
-    <div class="col-xs-12 col-md-3">
+    <div class="col-xs-6 col-md-3">
       <a href="#" class="thumbnail">
         <img src="img/produtos/caixas-opcao3.png" alt="Caixas Opção 3">
       </a>
     </div>
-    <div class="col-xs-12 col-md-3">
+    <div class="col-xs-6 col-md-3">
       <a href="#" class="thumbnail">
         <img src="img/produtos/caixas-opcao4.png" alt="Caixas Opção 3">
       </a>

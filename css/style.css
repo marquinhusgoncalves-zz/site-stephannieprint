@@ -35,8 +35,7 @@
 body {
   font-family: 'museosans_100', sans-serif;
 }
-header {
-  z-index: 2;
+.head {
   position: relative;
   min-height: 120px;
 }
@@ -68,19 +67,28 @@ header li a {
 }
 header li a:hover,
 header li a:link {
-  color: #727b86;
+  color: #4778b6;
   text-decoration: none;
+}
+.redes-sociais, .link-menu {
+  display: none;
 }
 nav {
   position: absolute;
   top: 50px;
   right: 15px;
 }
+.menu-fixo {
+    background-color: #fff;
+    position: fixed;
+    z-index: 99;
+    width:100%;
+}
 .fa-stack {
  cursor: pointer;
 }
 span.fa-stack:hover {
-  color: pink;
+  color: #4778b6;
 }
 input#control-nav {
   visibility: hidden;
@@ -262,7 +270,7 @@ ul#navigation li a p {
   display: inline-block;
   position: relative;
   top: -100px;
-  left: 70px;
+  left: 110px;
 }
 .img-banner-cartoes, .img-banner-papeis, .img-banner-pastas, .img-banner-blocos {
   top: 30px;
@@ -350,7 +358,6 @@ form {
 }
 /*EMPRESA*/
 .empresa-box {
-  /*min-height: 550px;*/
   height: auto;
 }
 .empresa-box-1 {
@@ -428,13 +435,28 @@ form {
   .texto-banner {
     display: none;
   }
+  .redes-sociais {
+    position: absolute;
+    right: 90px;
+    top: 61px;
+    display: block;
+  }
+  .redes-sociais li {
+    display: inline-block;
+  }
+  .redes-sociais-menu {
+    display: none;
+  }
+  .link-menu {
+    display: block;
+  }
   header .control-nav {
     position: absolute;
     right: 25px;
-    top: 70px;
+    top: 65px;
     display: block;
     width: 30px;
-    padding: 8px 0;
+    padding: 10px 0;
     border: solid #333;
     border-width: 3px 0;
     z-index: 2;
@@ -476,6 +498,14 @@ form {
     -webkit-transform: translate(100%, 0);
     -ms-transform: translate(100%, 0);
     transform: translate(100%, 0);
+    text-align: center;
+  }
+  header li {
+    display: block;
+  }
+  header li a {
+    font-size: 21px;
+    margin: 10px;
   }
   /*EMPRESA*/
   .empresa-title-1 h2, .empresa-title-2 h2, .empresa-title-3 h2 {
@@ -505,8 +535,11 @@ form {
   header img {
     width: 340px;
   }
+  .redes-sociais {
+    top: 51px;
+  }
   header .control-nav {
-    top: 60px;
+    top: 55px;
   }
   .img-banner {
     top: 10px;
@@ -530,6 +563,14 @@ form {
     width: 200px;
   }
 }
+@media screen and (max-width: 580px) {
+  .redes-sociais {
+    display: none;
+  }
+  .redes-sociais-menu {
+    display: inline-block;
+  }
+}
 @media screen and (max-width: 480px) {
   .main {
     min-height: 300px;
@@ -538,7 +579,7 @@ form {
     width: 300px;
   }
   header .control-nav {
-    top: 53px;
+    top: 51px;
   }
   .img-banner {
     top: 15px;
