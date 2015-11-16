@@ -37,7 +37,6 @@ body {
 }
 .head {
   position: relative;
-  min-height: 120px;
 }
 header h1 {
   padding: 10px 0 0 10px;
@@ -65,13 +64,20 @@ header li a {
   -webkit-transition: all 300ms ease;
   transition: all 300ms ease;
 }
+header li a:visited {
+  color: #000;
+}
 header li a:hover,
-header li a:link {
+header li a:active {
   color: #4778b6;
   text-decoration: none;
 }
 .redes-sociais, .link-menu {
   display: none;
+}
+.redes-sociais-menu a {
+  font-size: 14px;
+  padding: 0;
 }
 nav {
   position: absolute;
@@ -107,70 +113,6 @@ input#control-nav {
   -ms-transform: translate(0, 0);
   transform: translate(0, 0);
 }
-/*#ACCORDION*/
-/*.accordion {
-  width: 100%;
-  max-width: 1080px;
-  height: 2114px;
-  overflow: hidden;
-  margin: 0 auto;
-}
-.accordion ul {
-  width: 100%;
-  display: table;
-  table-layout: fixed;
-  margin: 0;
-  padding: 0;
-}
-.accordion ul li {
-  display: table-cell;
-  vertical-align: middle;
-  position: relative;
-  width: 16.666%;
-  height: 2114px;
-  background-repeat: no-repeat;
-  background-position: center center;
-  transition: all 500ms ease;
-}
-.accordion ul li div div:nth-child(1) {
-  position: absolute;
-  top: 30px;
-  left: 15px;
-}
-.accordion ul li div div:nth-child(2) {
-  position: absolute;
-  top: 160px;
-  left: 15px;
-}
-.accordion ul li div h3 {
-  color: #fff;
-  transform: rotate(-90deg);
-  font-size: 2em;
-}
-.accordion ul li:nth-child(1) { 
-  background-image: url("../img/sacolas.jpg");
-}
-.accordion ul li:nth-child(2) {
-  background-image: url("../img/sacolas.jpg");
-}
-.accordion ul li:nth-child(3) {
-  background-image: url("../img/sacolas.jpg");
-}
-.accordion ul li:nth-child(4) {
-  background-image: url("../img/sacolas.jpg");
-}
-.accordion ul li:nth-child(5) {
-  background-image: url("../img/sacolas.jpg");
-}
-.accordion ul li:nth-child(6) {
-  background-image: url("../img/sacolas.jpg");
-}
-.accordion ul:hover li { 
-  width: 8%;
-}
-.accordion ul:hover li:hover { 
-  width: 30%;
-}*/
 /*INDEX*/
 .main-sacolas {
   background-image: url(../img/img-sacolas.jpg);
@@ -214,8 +156,6 @@ ul#navigation li a {
   margin-left: -85px;
   width: 140px;
   height: 120px;
-  /*background-repeat:no-repeat;
-  background-position:center center;*/
   -moz-border-radius:0px 10px 10px 0px;
   -webkit-border-bottom-right-radius: 10px;
   -webkit-border-top-right-radius: 10px;
@@ -223,7 +163,7 @@ ul#navigation li a {
   -khtml-border-top-right-radius: 10px;
 }
 ul#navigation .sacolas a {
-  background-color: #b698c7;
+  background-color: #a77dc1;
 }
 ul#navigation .caixas a {
   background-color: #86a32a;
@@ -280,7 +220,7 @@ ul#navigation li a p {
   width: 280px;
   position: relative;
   top: 190px;
-  left: 100px;
+  left: 120px;
 }
 .texto-banner-cartoes {
   top: 70px;
@@ -443,6 +383,11 @@ form {
   }
   .redes-sociais li {
     display: inline-block;
+  }
+  .redes-sociais a {
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
   }
   .redes-sociais-menu {
     display: none;

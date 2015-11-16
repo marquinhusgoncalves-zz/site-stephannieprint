@@ -13,6 +13,8 @@
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/style.css" >
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/slick.css"/>
+  <link rel="stylesheet" href="css/slick-theme.css"/>
 </head>
 <body>
   <header>
@@ -23,22 +25,28 @@
       <input type="checkbox" id="control-nav" />
       <div class="redes-sociais">
         <li>
+        <a href="http://www.facebook.com" target="_blank">
           <span class="fa-stack fa-lg">
             <i class="fa fa-square fa-stack-2x"></i>
             <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
           </span>
+        </a>
         </li>
         <li>
+        <a href="http://www.instagram.com" target="_blank">
           <span class="fa-stack fa-lg">
             <i class="fa fa-square fa-stack-2x"></i>
             <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
           </span>
+        </a>
         </li>
         <li>
+        <a href="http://www.twitter.com" target="_blank">
           <span class="fa-stack fa-lg">
             <i class="fa fa-square fa-stack-2x"></i>
             <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
           </span>
+        </a>
         </li>
       </div>
       <label for="control-nav" class="control-nav"></label>
@@ -53,25 +61,31 @@
           <li class="link-menu"><a href="caixas.php">CAIXAS</a></li>
           <li class="link-menu"><a href="cartoes.php">CARTÕES</a></li>
           <li class="link-menu"><a href="papeis.php">PAPÉIS </br>DE PRESENTE</a></li>
-          <li class="link-menu"><a href="pastas.php">PASTAS, AGENDAS </br>E CADERNETAS</a></li>
+          <li class="link-menu"><a href="pastas.php">PASTAS, AGENDAS</br>E CADERNETAS</a></li>
           <li class="link-menu"><a href="blocos.php">BLOCOS </br>DE ANOTAÇÕES</a></li>
           <li class="redes-sociais-menu">
-            <span class="fa-stack fa-lg">
-              <i class="fa fa-square fa-stack-2x"></i>
-              <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-            </span>
+            <a href="http://www.facebook.com" target="_blank">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-square fa-stack-2x"></i>
+                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
           </li>
           <li class="redes-sociais-menu">
-            <span class="fa-stack fa-lg">
-              <i class="fa fa-square fa-stack-2x"></i>
-              <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
-            </span>
+            <a href="http://www.instagram.com" target="_blank">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-square fa-stack-2x"></i>
+                <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
           </li>
           <li class="redes-sociais-menu">
-            <span class="fa-stack fa-lg">
-              <i class="fa fa-square fa-stack-2x"></i>
-              <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-            </span>
+            <a href="http://www.twitter.com" target="_blank">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-square fa-stack-2x"></i>
+                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
           </li>
         </ul>
       </nav>
