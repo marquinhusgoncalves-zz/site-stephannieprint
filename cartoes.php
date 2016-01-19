@@ -1,4 +1,4 @@
-<div><?php include 'header.php';?></div>
+<?php include 'header.php';?>
 <div class="main main-cartoes">
 <div class="container">
   <div class="box-banner box-banner-cartoes">

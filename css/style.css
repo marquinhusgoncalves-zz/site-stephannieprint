@@ -39,7 +39,7 @@ body {
   position: relative;
 }
 header h1 {
-  padding: 10px 0 0 10px;
+  /*padding: 10px 0 0 10px;*/
 }
 header img {
   width: 400px;
@@ -81,7 +81,7 @@ header li a:active {
 }
 nav {
   position: absolute;
-  top: 50px;
+  top: 35px;
   right: 15px;
 }
 .menu-fixo {
@@ -377,8 +377,8 @@ form {
   }
   .redes-sociais {
     position: absolute;
-    right: 90px;
-    top: 61px;
+    right: 80px;
+    top: 50px;
     display: block;
   }
   .redes-sociais li {
@@ -398,7 +398,7 @@ form {
   header .control-nav {
     position: absolute;
     right: 25px;
-    top: 65px;
+    top: 55px;
     display: block;
     width: 30px;
     padding: 10px 0;
@@ -481,10 +481,10 @@ form {
     width: 340px;
   }
   .redes-sociais {
-    top: 51px;
+    top: 40px;
   }
   header .control-nav {
-    top: 55px;
+    top: 45px;
   }
   .img-banner {
     top: 10px;
@@ -524,7 +524,7 @@ form {
     width: 300px;
   }
   header .control-nav {
-    top: 51px;
+    top: 40px;
   }
   .img-banner {
     top: 15px;
@@ -554,7 +554,7 @@ form {
     width: 230px;
   }
   header .control-nav {
-    top: 43px;
+    top: 28px;
   }
   /*EMPRESA*/
   .empresa-title-1 h2, .empresa-title-2 h2, .empresa-title-3 h2 {

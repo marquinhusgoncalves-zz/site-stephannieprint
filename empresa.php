@@ -1,4 +1,4 @@
-<div><?php include 'header.php';?></div>
+<?php include 'header.php';?>
 <div class="empresa-box empresa-box-1">
   <div class="container">
     <div class="col-md-10 col-md-offset-2 empresa-wrap empresa-wrap-1">

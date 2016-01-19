@@ -3,13 +3,13 @@
 <head>
   <title>Stephannie Print</title>
   <meta name="author" content="Marquinhus Goncalves">
-  <meta name="description" content="Mundo S/A">
+  <meta name="description" content="Stephannie Print, Sacolas, Cartões, Papel de Presente, Caixas, Pastas, Agendas, Blocos">
   <meta name="keywords" content="">
   <meta name="robots" content="index, follow">
-  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="format-detection" content="telephone=no">
-  <link rel="icon" href="img/favicon.png">
+  <meta charset="UTF-8">
+  <link rel="icon" href="img/favicon.ico">
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/style.css" >
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
@@ -54,7 +54,7 @@
       <nav>
         <ul>
           <li><a href="empresa.php">A EMPRESA</a></li>
-          <li><a href="#">PRODUTOS</a></li>
+          <!-- <li><a href="#">PRODUTOS</a></li> -->
           <li><a href="#">LOJA</a></li>
           <li><a href="#cadastro">CADASTRO</a></li>
           <li class="link-menu"><a href="index.php">SACOLAS</a></li>
