@@ -25,7 +25,7 @@
       <input type="checkbox" id="control-nav" />
       <div class="redes-sociais">
         <li>
-        <a href="http://www.facebook.com" target="_blank">
+        <a href="http://www.facebook.com/stephannieprint" target="_blank">
           <span class="fa-stack fa-lg">
             <i class="fa fa-square fa-stack-2x"></i>
             <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
@@ -64,7 +64,7 @@
           <li class="link-menu"><a href="pastas.php">PASTAS, AGENDAS</br>E CADERNETAS</a></li>
           <li class="link-menu"><a href="blocos.php">BLOCOS </br>DE ANOTAÇÕES</a></li>
           <li class="redes-sociais-menu">
-            <a href="http://www.facebook.com" target="_blank">
+            <a href="http://www.facebook.com/stephannieprint" target="_blank">
               <span class="fa-stack fa-lg">
                 <i class="fa fa-square fa-stack-2x"></i>
                 <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
