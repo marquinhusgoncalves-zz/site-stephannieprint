@@ -1,6 +1,6 @@
 <?php
 $subjectPrefix = 'Site Stephannie Print';
-$emailTo = '<contato@stephannie.com.br>';
+$emailTo = '<contato@stephannieprint.com.br>';
 if($_SERVER['REQUEST_METHOD'] == 'POST') {
     $name    = stripslashes(trim($_POST['form-name']));
     $email   = stripslashes(trim($_POST['form-email']));
